@@ -1,0 +1,18 @@
+
+
+Install driver for leap motion sensor:
+
+install driver (32 or 64 bit version) from SVN
+(in LeapMotionDriver):
+
+  sudo dpkg -i Leap-2.0.1+15831-64x.deb
+
+copy the following files from the SVN
+(in LeapMotionDriver/additional_files/include, 
+LeapMotionDriver/additional_files/lib/x64 or
+LeapMotionDriver/additional_files/lib/x86):
+
+  sudo cp Leap.h Leap.i LeapMath.h /usr/local/include
+  sudo cp libLeap.so /usr/lib/Leap
+
+
