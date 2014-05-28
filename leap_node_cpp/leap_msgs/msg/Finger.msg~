@@ -1,0 +1,8 @@
+int16 id
+int16 name
+float64 width
+float64 length
+geometry_msgs/Point velocity
+geometry_msgs/Pose pose
+geometry_msgs/Point direction
+Bone[4] bones
